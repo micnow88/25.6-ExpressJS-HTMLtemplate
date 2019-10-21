@@ -1,0 +1,11 @@
+div.main-container
+  h3 Complete the form and click Button
+  form(action='http://localhost:3000/auth/google', method='GET')
+          p
+            | First Name:
+            input(type='text', name='first_name')
+          p
+            | Last Name:
+            input(type='text', name='last_name')
+          input.button(type='submit', value='Google')
+
